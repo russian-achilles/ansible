@@ -1,0 +1,5 @@
+---
+- name: dockerのインストール
+  apt:
+    name: docker
+    state: latest
